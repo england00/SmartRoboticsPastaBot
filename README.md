@@ -26,18 +26,18 @@ source /opt/ros/noetic/setup.bash
 
 - Cloning repository:
 ```shell
-git clone https://github.com/alessandromonteleone/Smart_Robotics_PastaBot.git
+git clone https://github.com/alessandromonteleone/SmartRoboticsPastaBot.git
 ```
 
 - Building the workspace:
 ```shell
-cd ./Smart_Robotics_PastaBot/
+cd ./SmartRoboticsPastaBot/
 catkin_make
 ```
 
 
 ## Index
-- [Smart_Robotics_PastaBot](.)
+- [SmartRoboticsPastaBot](.)
     - [Documents](./docs/)
         - [Logo](./docs/logo.jpg)
         - [Presentation](./docs/PastaBot.pdf)
@@ -62,7 +62,7 @@ Implementation details can be found in the [PDF](./docs/PastaBot.pdf) presentati
 
 
 ## Demo
-For running the simulation, execute this command from the [Smart_Robotics_PastaBot](.) folder:
+For running the simulation, execute this command from the [SmartRoboticsPastaBot](.) folder:
 ```shell
 ./run.sh
 ```
@@ -71,5 +71,6 @@ This will open the Gazebo simulation and a new terminal, where the user is promp
 - 2 for Medium Box;
 - 3 for Heavy Box;
 - 0 for Exit.
+
 
 Once an option is selected the simulation starts and upon completion it returns to the previous menu for the next selection.
