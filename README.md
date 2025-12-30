@@ -74,3 +74,8 @@ This will open the Gazebo simulation and a new terminal, where the user is promp
 
 
 Once an option is selected the simulation starts and upon completion it returns to the previous menu for the next selection.
+
+
+## Credits
+[@alcompa](https://github.com/alcompa)
+[@alessandromonteleone](https://github.com/alessandromonteleone)
